@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="d13f2a2efccf46e69c9ba34fcc766b80" Name="Diagram1">
+        <EntityTypeShape EntityType="PoprijenokModel.Agent" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PoprijenokModel.AgentPriorityHistory" Width="1.5" PointX="5.25" PointY="19.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="PoprijenokModel.AgentType" Width="1.5" PointX="0.75" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="PoprijenokModel.Material" Width="1.5" PointX="3" PointY="11.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="PoprijenokModel.MaterialCountHistory" Width="1.5" PointX="5.25" PointY="13.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="PoprijenokModel.MaterialType" Width="1.5" PointX="0.75" PointY="12.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="PoprijenokModel.Product" Width="1.5" PointX="3" PointY="6.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PoprijenokModel.ProductCostHistory" Width="1.5" PointX="5.25" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="PoprijenokModel.ProductMaterial" Width="1.5" PointX="5.25" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="PoprijenokModel.ProductSale" Width="1.5" PointX="5.25" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PoprijenokModel.ProductType" Width="1.5" PointX="0.75" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="PoprijenokModel.Shop" Width="1.5" PointX="5.25" PointY="22.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="PoprijenokModel.Supplier" Width="1.5" PointX="5.25" PointY="16.375" IsExpanded="true" />
+        <AssociationConnector Association="PoprijenokModel.FK_Agent_AgentType" ManuallyRouted="false" />
+        <AssociationConnector Association="PoprijenokModel.FK_AgentPriorityHistory_Agent" ManuallyRouted="false" />
+        <AssociationConnector Association="PoprijenokModel.FK_ProductSale_Agent" ManuallyRouted="false" />
+        <AssociationConnector Association="PoprijenokModel.FK_Shop_Agent" ManuallyRouted="false" />
+        <AssociationConnector Association="PoprijenokModel.FK_Material_MaterialType" ManuallyRouted="false" />
+        <AssociationConnector Association="PoprijenokModel.FK_MaterialCountHistory_Material" ManuallyRouted="false" />
+        <AssociationConnector Association="PoprijenokModel.FK_ProductMaterial_Material" ManuallyRouted="false" />
+        <AssociationConnector Association="PoprijenokModel.FK_Product_ProductType" ManuallyRouted="false" />
+        <AssociationConnector Association="PoprijenokModel.FK_ProductCostHistory_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="PoprijenokModel.FK_ProductMaterial_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="PoprijenokModel.FK_ProductSale_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="PoprijenokModel.MaterialSupplier" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
